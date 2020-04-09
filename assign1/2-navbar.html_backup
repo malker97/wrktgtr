@@ -6,23 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Navigation</title>
     <link rel="stylesheet" href="2-navbar.css" />
-    <style>
-   	li{
-   		display: inline;
-    	}
-    </style>
-
   </head>
   <body>
     <section>
       <nav>
         <!-- add your code below -->
-	</style>
-	  <li><a href="#home">Home</a></li>
-	  <li><a href="#news">News</a></li>
-	  <li><a href="#contact">Contact</a></li>
-	  <li><a href="#about">About</a></li>
-	<p>exercise #2 - create a navbar</p>
+        <p>exercise #2 - create a navbar</p>
       </nav>
     </section>
   </body>
