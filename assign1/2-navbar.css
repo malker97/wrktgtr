@@ -3,10 +3,10 @@ body {
   font-size: 1.1em;
   color: #dedede;
 }
-
-
-
-
+.bar ul{list-style:none;}
+.bar li:hover {
+    background-color: #1aaae9 !important;
+}
 nav {
   background-image: linear-gradient(to right, rgb(1, 73, 73) 20%, black);
 }
