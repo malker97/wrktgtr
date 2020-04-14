@@ -7,6 +7,11 @@ body {
   font-size: 1.1em;
   color: #555;
 }
+div.imgSet{
+    display:flex;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
 .secondFilterImg {
     -webkit-filter: blur(4px);
     filter: blur(4px);
