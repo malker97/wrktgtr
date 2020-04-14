@@ -3,7 +3,9 @@ body {
   font-size: 1.1em;
   color: #dedede;
 }
-.bar ul{list-style:none;}
+.bar ul {
+    display: inline-flex;
+}
 .bar li:hover {
     background-color: #1aaae9 !important;
 }
