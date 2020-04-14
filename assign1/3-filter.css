@@ -1,9 +1,29 @@
 img {
-      filter: grayscale(100%);
-	  filter: blur(5px);
+    height: auto;
+    float: left;
 }
 body {
   font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
   font-size: 1.1em;
   color: #555;
+}
+.secondFilterImg {
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+}
+.firstFilterImg {
+    -webkit-filter: grayscale();
+    filter: grayscale(0.30);
+}
+.thirdFilterImg {
+    -webkit-filter: invert();
+    filter: invert(180%);
+}
+.fourthFilterImg {
+    -webkit-filter: opacity(50%);
+    filter: opacity(50%);
+}
+.fifthFilterImg {
+    -webkit-filter: brightness(2);
+    filter: brightness(2);
 }
