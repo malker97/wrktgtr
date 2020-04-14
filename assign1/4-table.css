@@ -9,28 +9,28 @@ table {
     text-align: center;
 }
 
-td, th {
+td,th {
     border: 1px solid #cad9ea;
     height: 30px;
 }
 
 th {
-    background-color: #CCE8EB;
+    background-color: #006060;
     color: #666;
     width: 600px;
 }
 
 tbody > tr {
-    background-color: #C8C8C8;
+    background-color: #ffffff;
 }
 
 tr:hover {
-    background-color: #ffa !important;
+    background-color: #006060 !important;
 }
 
 .different {
-    background-color: #FF0000 !important;
-    color: #00FF00 !important;
+    background-color: #006060 !important;
+    color: #006060 !important;
 }
 /* Colors used include:
       - #006060;
