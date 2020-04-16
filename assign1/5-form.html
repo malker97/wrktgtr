@@ -9,6 +9,31 @@
   </head>
   <body>
     <!-- add your code below -->
+    <div>
+      <form>
+        <label for="fullname">Name(required)</label>
+        <input type="text" id="fullname">
+
+        <label for="email">Email(required)</label>
+        <input type="text" id="email">
+        <label for="rigsttu">Registration Status:</label>
+        <select id="rigsttu" name="rigsttu">
+          <option value="registrtered">Registrtered</option>
+          <option value="waitlist">Waitlist</option>
+          <option value="other">Other</option>
+        </select>
+        <label for="classlect">Class Selection:</label>
+        <input type="radio" id="classlect" name="cs410P" value="CS410P">
+        <input type="radio" id="classlect" name="cs510p" value="CS510P">
+        <label for="anycoures">Have you taken any of the following courses?</label>
+        <input type="checkbox" id="anycoures" name="prglg" value="Programming Languages">
+        <input type="checkbox" id="anycoures" name="os" value="Operating Systems">
+        <input type="checkbox" id="anycoures" name="fulstck" value="Full Statck Web Development">
+        <label for="anyels">Anything else></label>
+        <textarea id="anyels" name="els"></textarea>
+        <input type="submit" value="Sumbmit">
+      </form>
+    </div>
     <p>exercise #5 - creating a form</p>
   </body>
 </html>
