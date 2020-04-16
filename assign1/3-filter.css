@@ -22,7 +22,7 @@ div.imgSet{
 }
 .thirdFilterImg {
     -webkit-filter: invert();
-    filter: invert(180%);
+    filter: invert(300%);
 }
 .fourthFilterImg {
     -webkit-filter: opacity(50%);
