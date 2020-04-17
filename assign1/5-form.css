@@ -5,20 +5,26 @@ body {
 h1{
     color:#0173A0;
 }
-div.mainpart{
-//    text-align:center;
-    margin:50%;
-    background-color:white;
-    max-width:476px;
-    max-height:768px;
-    margin:0 auto;
+fieldset {
+    margin-top:50px;
+    border: 2px solid;
+    border-radius: 8px;
+    margin: 50%;
+    background-color: white;
+    max-width: 476px;
+    max-height: 768px;
+    margin: 0 auto;
+}
+div.mainpart {
+    // text-align:center;
+    margin-top: 200px;
 }
 input[type=text]{
     width:100%;
 }
 input[type=reset] {
     text-align:center;
-    width:10px;
+    width:-50%;
     height:20px;
     border: none;
     color: white;
@@ -30,7 +36,7 @@ input[type=reset] {
 input[type=submit]{
     background-color:#0173A0;
     text-align:center;
-    width:10px;
+    width:50%;
     height:20px;
     border: none;
     color: white;
