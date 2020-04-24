@@ -2,6 +2,8 @@
 * {
   box-sizing: border-box;
   font-family: sans-serif;
+  /* max-width:1024px; */
+  /* max-width:414px; */
 }
 .title{
 	background-color: black;
@@ -9,16 +11,15 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	width: auto;
-	height: 70px;
+	height: 100px;
 	text-align: center;
-	font-size: 1.6em;
+	font-size: 2em;
 }
 
 .header{
-	background-color: white;
-	color: black;
-	display: grid;
+	background-color:white;
+	color:black;
+	display:grid;
 	grid-template-columns: repeat(7, 1fr);
 	width: auto;
 	height: 50px;
@@ -46,7 +47,6 @@
 	font-size: 1.5em;
 	font-weight: 600;
 	height: 100;
-	width: auto;
 	text-align: center;
 	background-color: lightgray;
 	color: black;
@@ -58,7 +58,7 @@ div{
 	align-items: center;
 	text-align: center;
 }
-@media all and (max-width:  414px) {
+@media all and (max-width:414px) {
 	.title{
 		height: 50px;
 	}
