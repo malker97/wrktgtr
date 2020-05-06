@@ -9,6 +9,41 @@
   </head>
   <body>
     <h3>Step 1 - insert your previous form here</h3>
+	 <div class="mainpart">
+      <fieldset>
+        <form>
+        <h1 class="ttloffrm">INTRO SURVEY</h1><br>
+          <label for="fullname"><strong>Name</strong>(required)</label>
+        <input type="text" id="fullname" required>
+          <label for="email"><strong>Email</strong>(required)</label>
+        <input type="email" id="email">
+          <label for="rigsttu"><strong>Registration Status:</strong></label>
+        <select id="rigsttu" name="rigsttu">
+          <option value="registrtered"><strong>Registrtered</strong></option>
+          <option value="waitlist">Waitlist</option>
+          <option value="other">Other</option>
+        </select><br>
+          <label for="classlect"><strong>Class Selection:</strong></label>
+        <input type="radio" id="classlect" name="course" value="CS410P" checked>
+        <label for="classlect">CS 410P</label>
+        <input type="radio" id="classlect" name="course" value="CS510P" >
+        <label for="classlect">CS 510P</label><br>
+          <label for="anycoures">Have you taken <strong>any</strong> of the following courses?</label><br>
+        <input type="checkbox" id="anycoures" name="prglg" value="Programming Languages">
+        <label for="anycoures">Programming Languages</label><br>
+        <input type="checkbox" id="anycoures" name="os" value="Operating Systems">
+        <label for="anycoures">Operating Systems</label><br>
+        <input type="checkbox" id="anycoures" name="fulstck" value="Full Statck Web Development">
+        <label for="anycoures">Full Statck Web Development</label><br>
+        <label for="anyels">Anything else:</label>
+        <textarea id="anyels" name="els"></textarea><br>
+          <div class="twobtn">
+        <input type="submit" value="Sumbmit">
+        <input type="reset" value="Reset">
+          </div>
+      </form>
+      </fieldset>
+    </div>
     <h3>Step 2 - address any responsiveness and/or accessibility issues</h3>
     <script src="1-form.js"></script>
   </body>
