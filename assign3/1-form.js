@@ -21,4 +21,5 @@ function myFunction() {
     console.log("class section:" + classlect);
     console.log("courses:" + anycoures);
     console.log("class goals:" + anyels);
+//    alert("It just is a alert to help cheak if there is some infomation at the console");
 }
