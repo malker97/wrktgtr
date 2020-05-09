@@ -8,9 +8,13 @@
 // name: r2d2
 // email: r2d2@me.com
 // human: no
-function parse_URL(url) {
+//
+// function parse_URL(url) {
+//
+//  }
+document.getElementById("subm").onclick = function () {
     var a = document.createElement('a');
-    a.href = url;
+    a.href = document.getElementById("comments");
     return{
         source: url,
         protocol: a.protocol.replace(':',''),
@@ -21,12 +25,12 @@ function parse_URL(url) {
             var ret = {},
                 seg = a.search.replace(/^\?/,'').split('&'),
                 len = seg.length, i = 0,s;
-                for (;i<len;i++){
-                    if (!seg[i]) {continue;}
-                    s = seg[i].split('=');
-                    ret[s[0]] = s[1];
-                }
-                return ret;
+            for (;i<len;i++){
+                if (!seg[i]) {continue;}
+                s = seg[i].split('=');
+                ret[s[0]] = s[1];
+            }
+            return ret;
         })(),
         file: (a.pathname.match(/\/([^\/?#]+)$/i) || [,''])[1],
         hash: a.hash.replace('#',''),

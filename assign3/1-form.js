@@ -7,7 +7,6 @@ class section: undergrad
 courses: operating systems, fullstack web development
 class goals: learning more about frontend!
 */
-document.getElementById("sumb").onclick = function() {myFunction()};
 function myFunction() {
     var name = document.getElementById("fullname");
     var email = document.getElementById("email");
@@ -23,3 +22,4 @@ function myFunction() {
     console.log("class goals:" + anyels);
 //    alert("It just is a alert to help cheak if there is some infomation at the console");
 }
+document.getElementById("sumb").onclick = function() {myFunction()};
