@@ -11,17 +11,24 @@
     />
   </head>
   <body class="bg-info">
-    <form class="bg-light border rounded w-50 mx-auto mt-5 p-3">
+    <form class="bg-light border rounded w-50 mx-auto mt-5 p-3" id="orgform">
       <h2 class="mt-2 mb-4">String Manipulation</h2>
       <div class="form-group">
         <label for="comments">Enter a URL:</label>
         <textarea class="form-control" id="comments" rows="1"> </textarea>
       </div>
       <div class="form-group mt-4">
-        <input type="submit" id="subm" class="btn btn-info" value="Submit" />
+        <input type="submit" id="subm" onclick="myfunction()" class="btn btn-info" value="Submit" />
         <input type="reset" id="reset" class="btn btn-secondary" value="Reset" />
       </div>
     </form>
+    <div id="answer">
+
+    </div>
+
+    <!--<form class="bg-light border rounded w-50 mx-auto mt-5 p-3">
+
+    </form>>-->
     <script src="2-url.js"></script>
   </body>
 </html>

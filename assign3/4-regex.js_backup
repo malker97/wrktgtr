@@ -1,0 +1,13 @@
+// Enter your code here
+function myfunction() {
+    alert("hr!");
+    var oldstrid = document.getElementById("userinput");
+    var oldstr = oldstrid.value;
+    alert(oldstr);
+// var ansstr = {};
+    String[]
+    ansstr = oldstr.split(",");
+    for (var i = 0;i<ansstr.length;i++)
+        alert(ansstr[i]);
+}
+myfunction();

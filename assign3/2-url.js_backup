@@ -1,0 +1,59 @@
+// Enter your code here
+
+// Input:
+// http://www.example.com?name=r2d2&email=r2d2%40me.com&human=no
+
+// Output
+// http://www.example.com
+// name: r2d2
+// email: r2d2@me.com
+// human: no
+//
+// function parse_URL(url) {
+//
+//  }
+
+// document.getElementById("answer").innerHTML = parse_URL('https://github.com/pubnub/python/search?utf8=%E2%9C%93&q=python');
+// alert(parse_URL('https://github.com/pubnub/python/search?utf8=%E2%9C%93&q=python'));
+function parse_URL() {
+    var commentsid = document.getElementById("comments");
+    var comments = commentsid.value;
+    var url = comments;
+    alert(url);
+    var a = document.createElement('a');
+    a.href = url;
+    return {
+        source: url,
+        protocol: a.protocol.replace(':', ''),
+        host: a.hostname,
+        params: (function () {
+            var ret = {},
+                seg = a.search.replace(/^\?/, '').split('&'),
+                len = seg.length,
+                i = 0,
+                s;
+            for (; i < len; i++) {
+                if (!seg[i]) {
+                    continue;
+                }
+                s = seg[i].split('=');
+                ret[s[0]] = s[1];
+            }
+            return ret;
+        }),
+    };
+}
+/*function creatnewform() {
+    var newForm = document.createElement('form class="bg-light border rounded w-50 mx-auto mt-5 p-3"');
+    // var theanswer = document.createTextNode("Its a test for the form");
+    // newForm.appendChild(theanswer);
+    var orgForm = document.getElementById("orgform")
+    var oldDiv = document.getElementById("answer");
+
+}*/
+function myfunction() {
+    // alert("hr");
+    // creatnewform();
+    console.log(parse_URL());
+    alert("nt");
+}
